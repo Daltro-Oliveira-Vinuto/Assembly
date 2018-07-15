@@ -41,7 +41,7 @@
 		beq $s0,$t1,DONE_WHILE_MAIN
 			
 			#$s0 = day
-			#swtich
+			#switch
 			CASE_1: addi $t0,$0,1
 				bne $s0,$t0,CASE_2
 				write_string("Today is Sunday\n")
